@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact BetterLifeSpace — Free Consultation</title>
+  <meta name="description" content="Contact BetterLifeSpace for a free consultation. Serving Olive Branch, MS and the greater Memphis, TN area. Call Steve Whitney at 662-420-3088." />
+  <meta name="keywords" content="contact BetterLifeSpace, free consultation, senior move management, Olive Branch MS, Memphis TN" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">BetterLifeSpace</a>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+      <nav class="site-nav" id="siteNav">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/services/">Services</a>
+        <a href="/blog/">Blog</a>
+        <a href="/app.html">App</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         CONTACT PAGE
+         ============================================================
+         GUIDELINES:
+         - Simple, warm, approachable
+         - Name, Email, Phone, Message form
+         - Steve's direct info prominently displayed
+         - Map centered on Olive Branch, MS (embed Google Maps)
+         - Note: "Serving Olive Branch, MS and the greater Memphis, TN area"
+         - BBB badge
+         - Veteran-owned badge
+
+         FORM:
+         - Wire to Formspree or similar (no backend needed)
+         - Replace the action URL with your Formspree endpoint
+           e.g. action="https://formspree.io/f/YOUR_FORM_ID"
+         - Current fallback: mailto link
+    -->
+
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p class="page-subtitle">No pressure. No rush. Just a conversation about what comes next.</p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-grid">
+
+        <div class="contact-form-wrap">
+          <h2>Schedule a Free Consultation</h2>
+          <!-- TODO: Replace action with Formspree endpoint: https://formspree.io/f/YOUR_FORM_ID -->
+          <form id="contactForm" class="contact-form" action="mailto:betterlifespace.com@gmail.com" method="post" enctype="text/plain">
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Phone
+              <input type="tel" name="phone" />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" required placeholder="Tell us a little about your situation — we're listening."></textarea>
+            </label>
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Send Message</button>
+              <a class="btn outline" href="mailto:betterlifespace.com@gmail.com?subject=Consultation%20Request">Email Us Directly</a>
+            </div>
+          </form>
+        </div>
+
+        <div class="contact-info-wrap">
+          <h2>Get in Touch</h2>
+          <div class="contact-info">
+            <p><strong>Steve Whitney</strong><br />Owner, BetterLifeSpace</p>
+            <p><strong>Phone:</strong> <a href="tel:6624203088">662-420-3088</a></p>
+            <p><strong>Email:</strong> <a href="mailto:betterlifespace.com@gmail.com">betterlifespace.com@gmail.com</a></p>
+          </div>
+
+          <div class="contact-location">
+            <h3>Service Area</h3>
+            <p>Olive Branch, MS and the greater Memphis, TN area</p>
+            <!-- TODO: Embed Google Maps iframe centered on Olive Branch, MS -->
+            <!--
+            <iframe
+              src="https://www.google.com/maps/embed?pb=YOUR_EMBED_CODE"
+              width="100%"
+              height="300"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            -->
+          </div>
+
+          <div class="contact-badges">
+            <!-- TODO: Add BBB A-Rated badge image -->
+            <p>BBB A-Rated</p>
+            <!-- TODO: Add Veteran-Owned badge image -->
+            <p>Veteran-Owned &amp; Operated</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p><strong>BetterLifeSpace</strong></p>
+        <p>Olive Branch, MS &bull; Greater Memphis Area</p>
+        <p><a href="tel:6624203088">662-420-3088</a> &bull; <a href="mailto:betterlifespace.com@gmail.com">betterlifespace.com@gmail.com</a></p>
+      </div>
+      <nav class="footer-nav">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/services/">Services</a>
+        <a href="/blog/">Blog</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+      <p class="footer-copy">&copy; <span id="year"></span> BetterLifeSpace. All rights reserved. Veteran-Owned &amp; Operated.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
